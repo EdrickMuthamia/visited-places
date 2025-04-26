@@ -1,4 +1,4 @@
-// Contact constructor
+
 function Contact(FirstName, LastName, PhoneNumber, Email) {
     this.FirstName = FirstName;
     this.LastName = LastName;
