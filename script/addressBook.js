@@ -17,7 +17,6 @@ AddressBook.prototype.addContact = function(contact) {
     this.displayContacts();
 };
 
-// Remove a contact from the address book
 AddressBook.prototype.removeContact = function(index) {
     if (index > -1 && index < this.contacts.length) {
         this.contacts.splice(index, 1);
