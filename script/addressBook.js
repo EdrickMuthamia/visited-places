@@ -6,7 +6,6 @@ function Contact(FirstName, LastName, PhoneNumber, Email) {
     this.Email = Email;
 }
 
-// AddressBook constructor
 function AddressBook() {
     this.contacts = [];
 }
