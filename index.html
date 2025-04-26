@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visited Places</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Add Your Details Below</h1>
+        <form id="newContactForm">
+            <input type="text" id="newFirstName" placeholder="First Name" required>
+            <input type="text" id="newLastName" placeholder="Last Name" required>
+            <input type="text" id="newPhoneNumber" placeholder="Phone Number" required>
+            <input type="email" id="newEmail" placeholder="Email" required>
+            <button type="submit">Add Contact</button>
+        </form>
+        <h2>My Contacts</h2>
+        <ul id="contacts"></ul>
+
+        <div id="contactDetails">
+
+        </div>
+    </div>
+
+    <div class="container">
+        <h1>To-Do List</h1>
+        <form id="toDoForm">
+            <input type="text" id="taskInput" placeholder="Enter a task" required>
+            <button type="submit">Add Task</button>
+        </form>
+        <ul id="toDoList"></ul>
+    </div>
+
+    <script src="./script/addressBook.js"></script>
+    <script src="./script/toDoList.js"></script>
+</body>
+
+</html>
