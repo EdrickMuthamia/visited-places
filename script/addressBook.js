@@ -28,7 +28,7 @@ AddressBook.prototype.displayContacts = function() {
 
     this.contacts.forEach((contact, index) => {
         const listItem = document.createElement('li');
-        listItem.textContent = `${contact.FirstName} ${contact.LastName} - ${contact.PhoneNumber} - ${contact.Email}`;
+        listItem.textContent = `${contact.FirstName} - ${contact.LastName} - ${contact.PhoneNumber} - ${contact.Email}`;
 
     
         const removeButton = document.createElement('button');
