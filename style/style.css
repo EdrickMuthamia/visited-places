@@ -2,7 +2,7 @@
 body {
     font-family: Arial, sans-serif;
     background-color: rgb(4, 4, 94);
-    color: #d4d0d0;
+    color: #9e9a9a;
     line-height: 1.6;
     margin: 0;
     padding: 0;
@@ -51,7 +51,7 @@ form button {
     flex: 1 1 100%;
     padding: 10px;
     background-color: #007bff;
-    color: #fff;
+    color: #b8b4b4;
     border: none;
     border-radius: 4px;
     font-size: 16px;
@@ -78,7 +78,7 @@ ul li {
     background: #0e2bcc;
     border: 1px solid #0d19c4;
     border-radius: 4px;
-    color: #fff;
+    color: #000000;
     transition: background-color 0.3s ease;
 }
 
@@ -88,14 +88,14 @@ ul li:hover {
 
 ul li.done {
     text-decoration: line-through;
-    color: #f1efef;
-    background: #e9ecef;
+    color: #000000;
+    background: #b6b9bb;
 }
 
 ul li button {
     padding: 5px 10px;
     background-color: #dc3545;
-    color: #fff;
+    color: #9c9696;
     border: none;
     border-radius: 4px;
     font-size: 14px;
@@ -107,13 +107,23 @@ ul li button:hover {
     background-color: #a71d2a;
 }
 
-/* Responsive Design */
-@media (max-width: 600px) {
-    form input {
-        flex: 1 1 100%;
-    }
 
-    form button {
-        flex: 1 1 100%;
-    }
-}
+
+
+
+
+    
+
+        
+
+        
+
+
+
+    
+
+        
+
+        
+
+    
