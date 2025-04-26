@@ -1,23 +1,24 @@
 /* General Styles */
 body {
     font-family: Arial, sans-serif;
+    background-color: rgb(4, 4, 94);
+    color: #d4d0d0;
+    line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f9;
-    color: #333;
-    line-height: 1.6;
 }
 
 h1, h2 {
     text-align: center;
-    color: #444;
+    color: #d4d0d0;
+    margin-bottom: 20px;
 }
 
 .container {
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
-    background: #fff;
+    background: rgb(3, 3, 41);
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
@@ -33,9 +34,17 @@ form {
 form input {
     flex: 1 1 calc(50% - 10px);
     padding: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid #197fd3;
     border-radius: 4px;
     font-size: 16px;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+form input:focus {
+    outline: none;
+    border-color: #0056b3;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
 }
 
 form button {
@@ -66,14 +75,20 @@ ul li {
     align-items: center;
     padding: 10px;
     margin-bottom: 10px;
-    background: #f9f9f9;
-    border: 1px solid #ddd;
+    background: #0e2bcc;
+    border: 1px solid #0d19c4;
     border-radius: 4px;
+    color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+ul li:hover {
+    background-color: #0c2499;
 }
 
 ul li.done {
     text-decoration: line-through;
-    color: #888;
+    color: #f1efef;
     background: #e9ecef;
 }
 
