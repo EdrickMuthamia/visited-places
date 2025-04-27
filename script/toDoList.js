@@ -1,4 +1,24 @@
+document.addEventListener('DOMContentLoaded', function() {
+    const taskListContainer = document.createElement('ul');
+    taskListContainer.id = 'toDoList';
+    document.body.appendChild(taskListContainer);
 
+    const form = document.createElement('form');
+    form.id = 'toDoForm';
+
+    const input = document.createElement('input');
+    input.type = 'text';
+    input.id = 'taskInput';
+    input.placeholder = 'Enter a new task';
+    form.appendChild(input);
+
+    const submitButton = document.createElement('button');
+    submitButton.type = 'submit';
+    submitButton.textContent = 'Add Task';
+    form.appendChild(submitButton);
+
+    document.body.appendChild(form);
+});
 function Task(description) {
     this.description = description;
     this.isDone = false;
